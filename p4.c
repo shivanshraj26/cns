@@ -46,6 +46,8 @@ int main()
 
     printf("\nDecrypted Cipher Text: ");
     for (i = 0; i < 3; i++)
+    {
         printf("%c", c[i] + 65);
+    }
     return 0;
 }
