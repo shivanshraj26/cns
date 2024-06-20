@@ -6,8 +6,8 @@ public class p2a {
 
         System.out.print("Enter the text to encrypt: ");
         String plaintext = scanner.nextLine();
+        
         System.out.print("Enter the shift value (a number between 1 and 25): ");
-
         int shift = scanner.nextInt();
 
         String ciphertext = encryptCaesar(plaintext, shift);
