@@ -1,5 +1,6 @@
 import java.security.MessageDigest;
 import java.util.Scanner;
+
 public class sha {
     public static void main(String[] args) throws Exception {
         Scanner sc = new Scanner(System.in);
