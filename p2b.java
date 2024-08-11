@@ -41,9 +41,7 @@ public class PlayFairCipher {
             formattedText.append('X');
             paddingAdded = true;
         }
-
         text = formattedText.toString();
-
         for (int i = 0; i < text.length(); i += 2) {
             char a = text.charAt(i);
             char b = text.charAt(i + 1);
@@ -66,7 +64,6 @@ public class PlayFairCipher {
         if (!encrypt && paddingAdded && result.charAt(result.length() - 1) == 'X') {
             result.deleteCharAt(result.length() - 1);
         }
-
         return result.toString();
     }
 
